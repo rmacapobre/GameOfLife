@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1398954004 source:/home/rmacapobre/workspace/GameOfLife/main.cpp
+	<stdlib.h>
+	<string>
+	<sstream>
+	<iostream>
+	<algorithm>
+	<boost/version.hpp>
+	<boost/algorithm/string.hpp>
+	"Log.h"
+	"MonThread.h"
+	"GameOfLife.h"
+
+1398537237 /home/rmacapobre/workspace/GameOfLife/Log.h
+	<iostream>
+	<string>
+	<sstream>
+	"boost/date_time/posix_time/posix_time.hpp"
+
+1399023118 /home/rmacapobre/workspace/GameOfLife/MonThread.h
+	<iostream>
+	<string>
+	<sstream>
+	"boost/date_time/posix_time/posix_time.hpp"
+	"boost/shared_ptr.hpp"
+	"boost/thread/thread.hpp"
+	"boost/version.hpp"
+	"Log.h"
+	"GameOfLife.h"
+
+1399023511 /home/rmacapobre/workspace/GameOfLife/GameOfLife.h
+	<iostream>
+	<string>
+	<sstream>
+	"boost/date_time/posix_time/posix_time.hpp"
+	"boost/shared_ptr.hpp"
+	"boost/thread/thread.hpp"
+	"boost/version.hpp"
+	"Log.h"
+
