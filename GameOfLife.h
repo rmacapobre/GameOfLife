@@ -318,7 +318,7 @@ public:
 			cout << endl;
 		}
 
-		boost::this_thread::sleep(boost::posix_time::seconds(1));
+		boost::this_thread::sleep(boost::posix_time::milliseconds(500));
 	}
 
 	void SetConfiguration(int **p)

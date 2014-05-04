@@ -16,7 +16,8 @@ using namespace std;
 // #define DEV
 // #define TOAD
 // #define BEACON
-#define PULSAR
+// #define PULSAR
+#define GLIDER
 
 int main()
 {
@@ -128,6 +129,14 @@ int main()
     pBoard[11][13] = 1;
 
 #endif // PULSAR
+
+#ifdef GLIDER
+    pBoard[9][13] = 1;
+    pBoard[9][14] = 1;
+    pBoard[9][15] = 1;
+    pBoard[8][15] = 1;
+    pBoard[7][14] = 1;
+#endif // GLIDER
 
     shared_ptr<MonThread> p;
     p.reset(new MonThread(pBoard, size));
