@@ -16,8 +16,8 @@ using namespace std;
 // #define DEV
 // #define TOAD
 // #define BEACON
-// #define PULSAR
-#define GLIDER
+#define PULSAR
+// #define GLIDER
 
 int main()
 {
